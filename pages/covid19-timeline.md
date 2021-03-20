@@ -7,4 +7,4 @@ timeline-options:
   hash_bookmark: true
 ---
 
-Pertinent events and articles supporting the aerosol nature of infection for COVID-19. The viron is around 0.115 microns in size, and is suspended in aerosolized water-based liquids 0.7 microns and bigger. **If your country has not crushed COVID-19 yet, you should wear a good cloth face covering (or mask) as much as possible when around others indoors and in other poorly ventilated spaces.** [Tweet this page](https://ctt.ac/rJcZh)
+The Ming Dynasty ruled China from 1368 to 1644 A.D., during which China’s population would double. Known for its trade expansion to the outside world that established cultural ties with the West, the Ming Dynasty is also remembered for its drama, literature and world-renowned porcelain.
