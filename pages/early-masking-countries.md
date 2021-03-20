@@ -1,6 +1,6 @@
 ---
-title: Some countries got their citizens in masks at the start of the pandemic
-nav: Early Masking Countries
+title: Republic of China
+nav: Republic of China
 nav_order: 4
 timeline-json: early-masking-countries.json
 timeline-options: 

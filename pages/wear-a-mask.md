@@ -1,7 +1,7 @@
 ---
-title: Wear A Mask - it's airborne!
-nav: Masks!
-nav_order: 6
+title: PRC
+nav: PRC
+nav_order: 5
 layout: page
 permalink: /wear-a-mask
 ---
