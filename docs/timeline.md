@@ -39,10 +39,15 @@ Timelinejs-template supports these extra features:
     - Use web-safe filenames, all lowercase with no spaces or odd characters. 
     - In the spreadsheet, put the filename in the "Media" column.
 
+These limitations:
+
+- "Time" column is not implemented
+- "Eras" are not implemented
+
 ### 2. Add spreadsheet to repository 
 
-Download or save your spreadsheet as a CSV (it must be a CSV! Google Sheets works well). 
-Rename to use a filename with no spaces or special characters (other than dash `-` or underscore `_`), e.g. don't use "Example timeline -- Sheet 1.csv", rename to `example-timeline.csv`.
+Download or save your spreadsheet as a CSV (it must be a CSV!). 
+Rename to use a filename with no spaces or special characters (other than dash `-` or underscore `_`), e.g. `example-timeline.csv`.
 
 Copy your spreadsheet into the "_data" folder in your repository.
 
@@ -110,29 +115,6 @@ timeline-options:
 
 *Note:* many of the options won't make sense for this context and some of them have inconsistent behavior so you may have to experiment with the order to get them to work.
 The most useful option is probably `hash_bookmark: true`.
-
-## Embed on Another Site
-
-To embed a timeline on another site (similar to how TimelineJS "authoring tool" versions are used), use the `embed` layout then add the page URL as the src for an iframe. 
-See "pages/embed.md" for example.
-Using the `embed` layout the timeline "page" will be generated without any nav or template elements, it is just the timeline itself.
-
-For example, your front matter might look like: 
-
-```
----
-title: Example Timeline Embed
-layout: embed
-# add TimelineJS
-timeline: demo-timeline
----
-```
-
-Then on the other site where you want to embed it, add an iframe with src being the link to the page, like:
-
-`<iframe src="https://thecdil.github.io/timelinejs-template/embed.html" width='100%' height='600' frameborder='0'></iframe>`
-
-*Note:* you will probably not want an `embed` style timeline page in your nav, so leave out the `nav` option in the front matter.
 
 # Reference
 
